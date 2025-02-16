@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div style="margin-bottom: 20px;border-radius: 20px;" >
+        <h2 >MY CALCULATOR</h2>
+    </div>
+    <div style="margin-bottom: 10px;" >
+        <input type="text"  id="display" placeholder="000000000" disabled class="mydisplay">
+    </div>
+    <div class="div1">
+        <button type="button" style="background-color: rgb(9, 219, 26);" onclick="myclear(this)">C</button>
+        <button type="button" style="color: rgb(25, 26, 25);background-color: rgb(118, 180, 10);" onclick="myclick(this)">/</button>
+        <button type="button" style="color: rgb(27, 27, 27);background-color: rgb(118, 180, 10);" onclick="myclick(this)">*</button>
+        <button type="button" style="background-color: red;" onclick="myback()">Del</button>
+        
+        <button type="button" onclick="myclick(this)" >7</button>
+        <button type="button" onclick="myclick(this)" >8</button>
+        <button type="button" onclick="myclick(this)" >9</button>
+        <button type="button" style="color: rgb(18, 18, 18);background-color: rgb(118, 180, 10);" onclick="myclick(this)">  -  </button>
+         
+        <button type="button" onclick="myclick(this)" >4</button>
+        <button type="button" >5</button>
+        <button type="button" onclick="myclick(this)" >6</button>
+        <button type="button" style="color: rgb(25, 25, 25);background-color: rgb(118, 180, 10);" onclick="myclick(this)">+</button>
+         
+        <button type="button" onclick="myclick(this)">1</button>
+        <button type="button" onclick="myclick(this)">2</button>
+        <button type="button" onclick="myclick(this)">3</button>
+        <button type="button" style="color: rgb(12, 14, 12);background-color: rgb(118, 180, 10);" onclick="myclick(this)" >%</button>
+
+        <button type="button" style="background-color: rgb(22, 210, 148);" onclick="myclick(this)">0</button>
+        <button type="button" onclick="myclick(this)">.</button>
+        <button type="button" style="grid-column:span 2;background-color: rgb(172, 122, 6);" onclick="myequal(this)">=</button>
+        <script src="myscript.js"></script>
+    </div>
+</body>
+</html>
